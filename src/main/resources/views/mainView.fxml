@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:controller="org.bessonov.calculator.controllers.MainController"
+      alignment="CENTER_RIGHT"
+      maxHeight="-Infinity"
+      maxWidth="-Infinity"
+      minHeight="300.0"
+      minWidth="250.0"
+      prefHeight="300.0"
+      prefWidth="200.0"
+      xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml/1">
+    <fx:include fx:id="displayView" source="includes/displayView.fxml" VBox.vgrow="SOMETIMES"/>
+    <fx:include fx:id="buttonsView" source="includes/buttonsView.fxml" VBox.vgrow="SOMETIMES"/>
+</VBox>
